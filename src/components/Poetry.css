@@ -1,0 +1,11 @@
+.author_list_poetry {
+    color: red;
+}
+
+.text_genre_poetry {
+    position: absolute;
+    width: 16%;
+    top: 58%;
+    left: 41%;
+    filter: brightness(0.8)
+}

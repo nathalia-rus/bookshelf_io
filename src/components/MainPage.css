@@ -1,0 +1,876 @@
+@import url('https://fonts.googleapis.com/css?family=Jura');
+
+/* Container holding the image and the text */
+
+
+/* Bottom left text */
+
+.parent {
+    background-color: beige;
+    height: 100vh;
+}
+
+.background {
+    background-color: #16181A;
+    height: 380vh;
+}
+
+.bottom-left {
+    position: fixed;
+    bottom: 8px;
+    left: 16px;
+}
+
+
+/* Top left text */
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+
+/* Top right text */
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+
+/* Bottom right text */
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+
+/* Centered text */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.image1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    top: 0;
+    left: 0;
+    background-color: #16181A;
+}
+
+.image1B {
+    width: 100%;
+    height: auto;
+    display: flex;
+    top: 0;
+    background-color: #16181A;
+}
+
+.image1C {
+    width: 100%;
+    height: auto;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+.textleft {
+    position: block;
+    bottom: 10%;
+    left: 16px;
+    color: #FEFFC5;
+}
+
+.genres_page {
+    position: absolute;
+    top: 180%;
+    left: -7%;
+    color: white;
+    font-family: 'arial', sans-serif;
+    letter-spacing: 1px;
+    transform: rotate(-90deg);
+    opacity: 0.8;
+    font-size: 90%;
+}
+
+.genres_page_3 {
+    position: absolute;
+    top: 290%;
+    left: -2.3%;
+    color: white;
+    font-family: 'arial', sans-serif;
+    letter-spacing: 1px;
+    transform: rotate(-90deg);
+    opacity: 0.8;
+    font-size: 90%;
+}
+
+.welcome_text {
+    position: absolute;
+    top: 48%;
+    left: 2.5%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Jura', sans-serif;
+    letter-spacing: 1px;
+    transform: rotate(-90deg);
+    opacity: 0.8;
+    font-size: 90%;
+}
+
+.paint_line_white {
+    position: absolute;
+    top: 115%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    width: 102%;
+    height: 6%;
+}
+
+.paint_line_white_2 {
+    position: absolute;
+    top: 348%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    width: 102%;
+    height: 6%;
+}
+
+.network_1 {
+    position: absolute;
+    top: 215%;
+    left: 45%;
+    width: 35%;
+    height: 230%;
+    transform: translate(-50%, -50%)rotate(-11deg);
+    opacity: 0.5;
+}
+
+.network_11 {
+    position: absolute;
+    top: 195%;
+    left: 36%;
+    width: 16%;
+    transform: translate(-50%, -50%)rotate(-10deg);
+}
+
+.network_3 {
+    position: absolute;
+    top: 240%;
+    left: 8%;
+    width: 20%;
+    height: 180%;
+    transform: translate(-50%, -50%);
+}
+
+.network_4 {
+    position: absolute;
+    top: 180%;
+    right: 0%;
+    width: 27%;
+    height: 200%;
+    ;
+    transform: translate(-50%, -50%) rotate(-14deg);
+    ;
+}
+
+.network_2 {
+    position: absolute;
+    top: 240%;
+    right: 8%;
+    width: 20%;
+    height: 180%;
+    transform: translate(-50%, -50%);
+}
+
+.network_1B {
+    position: absolute;
+    top: 370%;
+    left: 45%;
+    width: 27%;
+    height: 190%;
+    transform: translate(-50%, -50%) rotate(-180deg);
+}
+
+.network_2B {
+    position: absolute;
+    top: 370%;
+    left: 8%;
+    width: 25%;
+    height: 180%;
+    transform: translate(-50%, -50%) rotate(200deg);
+}
+
+.network_3B {
+    position: absolute;
+    top: 330%;
+    left: 80.5%;
+    width: 25%;
+    height: 180%;
+    transform: translate(-50%, -50%)rotate(200deg);
+}
+
+.network_3C {
+    position: absolute;
+    top: 272%;
+    width: 15%;
+    left: 63%;
+    height: 180%;
+    transform: translate(-50%, -50%)rotate(231deg);
+    opacity: 0.5;
+}
+
+.network_3D {
+    position: absolute;
+    top: 272%;
+    left: 65%;
+    width: 15%;
+    height: 180%;
+    transform: translate(-50%, -50%)rotate(225deg);
+    opacity: 0.5;
+}
+
+.network_3E {
+    position: absolute;
+    top: 270%;
+    left: 73%;
+    width: 15%;
+    height: 180%;
+    transform: translate(-50%, -50%)rotate(213deg);
+}
+
+.network_3BB {
+    position: absolute;
+    top: 437%;
+    left: 80%;
+    width: 12%;
+    height: 180%;
+    transform: translate(-50%, -50%)rotate(2deg);
+}
+
+.network_3CC {
+    position: absolute;
+    top: 439%;
+    left: 73%;
+    width: 12%;
+    height: 180%;
+    transform: translate(-50%, -50%)rotate(-12deg);
+}
+
+.network_3DD {
+    position: absolute;
+    top: 445%;
+    left: 73%;
+    width: 12%;
+    height: 180%;
+    transform: translate(-50%, -50%)rotate(-17deg);
+}
+
+.network_3EE {
+    position: absolute;
+    top: 440%;
+    left: 76.5%;
+    width: 12%;
+    height: 180%;
+    transform: translate(-50%, -50%)rotate(-6deg);
+}
+
+.network_3C_2 {
+    position: absolute;
+    top: 303%;
+    width: 8%;
+    left: 43%;
+    height: 180%;
+    transform: translate(-50%, -50%)rotate(157deg);
+}
+
+.network_3D_2 {
+    position: absolute;
+    top: 300%;
+    left: 40%;
+    width: 8%;
+    height: 180%;
+    transform: translate(-50%, -50%)rotate(160deg);
+}
+
+
+/*
+
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 3px;
+*/
+
+
+/*
+.rectangle_fantastic {
+    position: absolute;
+    top: 130%;
+    height: 20%;
+    width: 18%;
+    background-color: #383838;
+    transform: rotate(90deg);
+    left: 10%;
+    opacity: 0.8;
+}
+
+.rectangle_fantastic_transparent {
+    position: absolute;
+    top: 130%;
+    left: 13.7%;
+    height: 20%;
+    width: 18%;
+    background-color: #383838;
+    opacity: 0.5;
+}
+*/
+
+.history {
+    position: absolute;
+    top: 130%;
+    left: 41%;
+    width: 17.8%;
+}
+
+.history_image {
+    position: absolute;
+    filter: sepia(100%);
+    width: 105%;
+}
+
+.title_history {
+    position: absolute;
+    top: 1.3vw;
+    right: 6vw;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    font-size: 1.2vw;
+}
+
+.des_history {
+    position: absolute;
+    top: 17.8vw;
+    display: inline-block;
+    font-size: 0.9vw;
+    width: 68%;
+    right: 28%;
+    color: #C5C5C5;
+    font-family: jura;
+    opacity: 0.9;
+    text-align: left;
+}
+
+
+/*
+.parent_fantastic {
+    background-color: #16181A;
+    color: #C5C5C5;
+    position: relative;
+    z-index: 1;
+}
+*/
+
+.fantastic {
+    position: absolute;
+    top: 118%;
+    left: 8%;
+    width: 15.6%;
+}
+
+.fantastic_image {
+    position: absolute;
+    filter: sepia(100%);
+    width: 120%;
+}
+
+.title_fantastic {
+    position: absolute;
+    top: 1.2vw;
+    left: 3.5%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    font-size: 1.2vw;
+}
+
+.des_fantastic {
+    position: absolute;
+    top: 16vw;
+    display: inline-block;
+    font-size: 0.9vw;
+    width: 70%;
+    left: 3%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    text-align: right;
+}
+
+.poetry {
+    position: absolute;
+    top: 110%;
+    left: 71%;
+    width: 16%;
+}
+
+.poetry_image {
+    position: absolute;
+    filter: sepia(100%);
+    width: 120%;
+}
+
+.title_poetry {
+    position: absolute;
+    top: 3.5vw;
+    left: 3.5%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    font-size: 1.2vw;
+}
+
+.des_poetry {
+    position: absolute;
+    top: 19vw;
+    font-size: 0.9vw;
+    width: 89%;
+    right: 19%;
+    color: #C5C5C5;
+    font-family: jura;
+    opacity: 0.9;
+    text-align: right;
+}
+
+.fantasy {
+    position: absolute;
+    top: 166%;
+    left: 68%;
+    width: 16.3%;
+}
+
+.fantasy_image {
+    position: absolute;
+    filter: sepia(100%);
+    width: 120%;
+}
+
+.title_fantasy {
+    position: absolute;
+    top: 1.8vw;
+    right: 22%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    font-size: 1.2vw;
+}
+
+.des_fantasy {
+    position: absolute;
+    top: 16.5vw;
+    display: inline-block;
+    font-size: 0.9vw;
+    width: 70%;
+    left: 3%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    text-align: left;
+}
+
+.arrow_fantasy {
+    position: absolute;
+    top: 114%;
+    left: 64%;
+    width: 3.5%;
+}
+
+.travel {
+    position: absolute;
+    top: 163%;
+    left: 10%;
+    width: 15.2%;
+}
+
+.travel_image {
+    position: absolute;
+    filter: sepia(100%);
+    width: 120%;
+}
+
+.title_travel {
+    position: absolute;
+    top: 1.6vw;
+    left: 3.5%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    font-size: 1.2vw;
+}
+
+.des_travel {
+    position: absolute;
+    top: 15vw;
+    display: inline-block;
+    font-size: 1vw;
+    width: 70%;
+    left: 3%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    text-align: right;
+}
+
+.mystery {
+    position: absolute;
+    top: 180%;
+    left: 42%;
+    width: 15%;
+}
+
+.mystery_image {
+    position: absolute;
+    filter: sepia(100%);
+    width: 120%;
+}
+
+.title_mystery {
+    position: absolute;
+    top: 1.6vw;
+    left: 3.5%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    font-size: 1.2vw;
+}
+
+.des_mystery {
+    position: absolute;
+    top: 7vw;
+    display: inline-block;
+    font-size: 1vw;
+    width: 70%;
+    right: 40%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    text-align: right;
+}
+
+.sciencefiction {
+    position: absolute;
+    top: 210%;
+    left: 15%;
+    width: 16%;
+}
+
+.sciencefiction_image {
+    position: absolute;
+    filter: sepia(100%);
+    width: 120%;
+}
+
+.title_sciencefiction {
+    position: absolute;
+    top: 1.6vw;
+    left: 3.5%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    font-size: 1.2vw;
+}
+
+.des_sciencefiction {
+    position: absolute;
+    top: 15vw;
+    display: inline-block;
+    font-size: 1vw;
+    width: 70%;
+    left: 3%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    text-align: right;
+}
+
+.romance {
+    position: absolute;
+    top: 210%;
+    left: 65%;
+    width: 16%;
+}
+
+.romance_image {
+    position: absolute;
+    filter: sepia(100%);
+    width: 120%;
+    opacity: 0.8;
+}
+
+.title_romance {
+    position: absolute;
+    top: 1.6vw;
+    left: 3.5%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    font-size: 1.2vw;
+}
+
+.des_romance {
+    position: absolute;
+    top: 15vw;
+    display: inline-block;
+    font-size: 1vw;
+    width: 70%;
+    left: 3%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    text-align: right;
+}
+
+.adventure {
+    position: absolute;
+    top: 234%;
+    left: 42%;
+    width: 16%;
+}
+
+.adventure_image {
+    position: absolute;
+    filter: sepia(100%);
+    width: 120%;
+}
+
+.title_adventure {
+    position: absolute;
+    top: 1.6vw;
+    left: 3.5%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    font-size: 1.2vw;
+}
+
+.des_adventure {
+    position: absolute;
+    top: 15vw;
+    display: inline-block;
+    font-size: 1vw;
+    width: 70%;
+    left: 3%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    text-align: right;
+}
+
+.wisdom {
+    position: absolute;
+    top: 293%;
+    left: 40%;
+    width: 16%;
+}
+
+.wisdom_image {
+    position: absolute;
+    filter: sepia(100%);
+    width: 120%;
+}
+
+.title_wisdom {
+    position: absolute;
+    top: 1.6vw;
+    left: 3.5%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    font-size: 1.2vw;
+}
+
+.des_wisdom {
+    position: absolute;
+    top: 15vw;
+    display: inline-block;
+    font-size: 1vw;
+    width: 70%;
+    left: 3%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    text-align: right;
+}
+
+.classics {
+    position: absolute;
+    top: 270%;
+    left: 15%;
+    width: 18%;
+}
+
+.classics_image {
+    position: absolute;
+    filter: sepia(100%);
+    width: 120%;
+    opacity: 0.9;
+}
+
+.title_classics {
+    position: absolute;
+    top: 1.6vw;
+    left: 3.5%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    font-size: 1.2vw;
+}
+
+.des_classics {
+    position: absolute;
+    top: 15vw;
+    display: inline-block;
+    font-size: 1vw;
+    width: 70%;
+    left: 3%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    text-align: right;
+}
+
+.short_stories {
+    position: absolute;
+    top: 270%;
+    left: 64%;
+    width: 18%;
+}
+
+.short_stories_image {
+    position: absolute;
+    filter: sepia(100%);
+    width: 120%;
+    opacity: 0.8;
+}
+
+.title_short_stories {
+    position: absolute;
+    top: 1.6vw;
+    left: 3.5%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    font-size: 1.2vw;
+}
+
+.des_short_stories {
+    position: absolute;
+    top: 15vw;
+    display: inline-block;
+    font-size: 1vw;
+    width: 70%;
+    left: 3%;
+    color: #C5C5C5;
+    font-family: Jura;
+    opacity: 0.9;
+    text-align: right;
+}
+
+.aspire {
+    position: absolute;
+    top: 126%;
+    left: 33%;
+    width: 18%;
+    opacity: 1;
+    transform: rotate(90deg);
+    opacity: 0.3;
+}
+
+.dream {
+    position: absolute;
+    top: 144%;
+    left: 20%;
+    width: 16%;
+    opacity: 1;
+}
+
+.feel {
+    position: absolute;
+    top: 159%;
+    left: 58%;
+    width: 16%;
+    opacity: 0.6;
+}
+
+.dare {
+    position: absolute;
+    top: 190%;
+    left: 22%;
+    width: 12%;
+    opacity: 0.5;
+}
+
+.evoke {
+    position: absolute;
+    top: 220%;
+    left: 54.5%;
+    transform: rotate(90deg);
+}
+
+.question {
+    position: absolute;
+    top: 255%;
+    left: 73%;
+    transform: rotate(90deg);
+    opacity: 0.7;
+}
+
+.think {
+    position: absolute;
+    top: 268%;
+    left: 20%;
+    width: 19%;
+    opacity: 0.5;
+}
+
+.wonder {
+    position: absolute;
+    top: 230%;
+    left: 32%;
+    width: 10%;
+    opacity: 0.9;
+}
+
+.imagine {
+    position: absolute;
+    top: 297%;
+    left: 5%;
+    width: 18%;
+    transform: rotate(90deg);
+    opacity: 0.9;
+}
+
+.explore {
+    position: absolute;
+    top: 317%;
+    left: 70%;
+    width: 20%;
+}
+
+.become {
+    position: absolute;
+    top: 334%;
+    left: 12%;
+    width: 35%;
+    opacity: 0.3;
+}

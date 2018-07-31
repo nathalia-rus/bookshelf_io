@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Jura');
+.image2 {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 7%;
+}
+
+.logowelcome {
+    position: absolute;
+    width: 8%;
+    height: 10%;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.bookshelfiotext {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: #FEFFC5;
+    font-family: 'Jura', sans-serif;
+    letter-spacing: 1px;
+    font-size: 100%;
+}

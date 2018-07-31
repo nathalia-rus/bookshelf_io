@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Jura');
+.loginlogo {
+    position: fixed;
+    top: 11%;
+    left: 3%;
+    transform: translate(-13%, -95%);
+    width: 2.5%;
+    opacity: 0.8;
+}
+
+.navLeft {
+    position: fixed;
+    top: 78%;
+    right: 95.8%;
+    transform: translate(-78%, -95.8%);
+    width: 0.12%;
+    height: 63%;
+}
+
+.heart {
+    position: fixed;
+    bottom: 10%;
+    left: 2.5%;
+    width: 3%;
+}
+
+.main_line_down {
+    position: absolute;
+    bottom: 15%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 0.2%;
+}
+
+.name_text {
+    position: fixed;
+    top: 48%;
+    left: -1.8%;
+    transform: translate(-50%, -50%);
+    color: #FEFFC5;
+    font-family: 'Jura', sans-serif;
+    letter-spacing: 1px;
+    font-size: 2vh;
+    transform: rotate(-90deg);
+    opacity: 0.8;
+}

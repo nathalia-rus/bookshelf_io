@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Jura');
+
+/* CONTAINER PRINCIPAL */
+
+.content_book_container {
+    position: absolute;
+    top: 6%;
+    width: 82%;
+    height: 47%;
+    right: 10%;
+    overflow: hidden;
+}
+
+
+/* SUB-CONTAINERS */
+
+.content_book_synopsis {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 40%;
+    bottom: 45%;
+    background-color: rgba(44, 44, 46, 0.300);
+}
+
+
+/* CONTENT dans la div ! */
+
+.book_text_container_left {
+    position: absolute;
+    top: 12%;
+    left: 9%;
+    width: 85%;
+    height: 80%;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    color: rgb(251, 255, 243);
+    font-family: 'Avenir';
+    font-size: 1.9vh;
+}
+
+.book_text_container_right {
+    position: absolute;
+    top: 12%;
+    right: 7%;
+    height: 80%;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    color: rgb(251, 255, 243);
+    font-family: 'Avenir';
+    font-size: 1.9vh;
+    text-align: justify;
+}
+
+.content_book_author {
+    position: absolute;
+    left: 0%;
+    width: 40%;
+    top: 55%;
+    bottom: 0%;
+    z-index: 1;
+    background-color: rgba(44, 44, 46, 0.300);
+}
+
+.content_book_excerpt {
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 60%;
+    bottom: 45%;
+    z-index: 1;
+    background-color: rgba(44, 44, 46, 0.300);
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+}
+
+.content_book_why {
+    position: absolute;
+    right: 0%;
+    width: 60%;
+    top: 55%;
+    bottom: 0%;
+    z-index: 1;
+    background-color: rgba(44, 44, 46, 0.300);
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+}
+
+
+/* CONTAINER TEXT IN EACH BOX : */
+
+
+/* CONTAINER LEGENDS */
+
+.content_book_legend_left {
+    position: absolute;
+    top: 58%;
+    left: 2.3%;
+    width: 3%;
+    height: 10%;
+    color: rgb(190, 190, 134);
+    font-family: 'Jura', sans-serif;
+    transform: rotate(-90deg);
+    font-size: 1.7vh;
+}
+
+.content_book_legend_right {
+    position: absolute;
+    top: 50%;
+    right: -1.5%;
+    width: 10%;
+    height: 10%;
+    color: rgb(190, 190, 134);
+    font-family: 'Jura', sans-serif;
+    transform: rotate(90deg);
+    font-size: 1.7vh;
+}
+
+
+/* CONTAINER TEXT */

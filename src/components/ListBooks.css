@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Jura');
+.line_page {
+    position: absolute;
+    top: 67%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    width: 57%;
+    height: 1.3vh;
+}
+
+.booklist_container {
+    position: absolute;
+    bottom: 8%;
+    width: 78%;
+    height: 20%;
+    left: 11%;
+    overflow: hidden;
+}
+
+.book_rectangle {
+    width: 20%;
+    height: 15vh;
+    display: inline-flex;
+    padding-left: 9%;
+    padding-bottom: 3.5%;
+    filter: saturate(0) brightness(0.6);
+}
+
+.arrow_container {
+    position: absolute;
+    bottom: 2%;
+    width: 78%;
+    height: 8%;
+    left: 11%;
+}
+
+.big_arrow_1 {
+    position: absolute;
+    top: 10%;
+    width: 3%;
+    left: 17.3%;
+    display: inline-flex;
+    padding-right: 9%;
+}
+
+.big_arrow_2 {
+    position: absolute;
+    top: 10%;
+    width: 3%;
+    left: 47%;
+    display: inline-flex;
+    padding-right: 9%;
+    filter: opacity(0)
+}
+
+.big_arrow_3 {
+    position: absolute;
+    top: 10%;
+    width: 3%;
+    left: 75.5%;
+    display: inline-flex;
+    padding-right: 9%;
+    filter: opacity(0)
+}
+
+.book_title_2 {
+    display: inline-flex;
+    position: absolute;
+    font-family: jura;
+    color: white;
+    text-align: center;
+    width: 17%;
+    padding-left: 44%;
+    padding-top: 2%;
+}
+
+.book_title_3 {
+    display: inline-flex;
+    position: absolute;
+    font-family: 'Jura', sans-serif;
+    color: white;
+    text-align: center;
+    width: 16%;
+    padding-left: 69%;
+    padding-right: 20%;
+    padding-top: 2%;
+}
+
+.text_list_container {
+    position: absolute;
+    display: inline-flex;
+    bottom: 13%;
+    height: 15%;
+    left: 20%;
+    right: 19%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.book_1 {
+    position: absolute;
+    top: 0;
+    left: -2.6%;
+    width: 25.5%;
+    bottom: 0%;
+    margin-right: 9%;
+    z-index: 1;
+}
+
+.title_list {
+    text-align: center;
+    padding-top: 2.5%;
+    color: rgb(255, 255, 255);
+    font-family: 'Jura', sans-serif;
+    position: absolute;
+    z-index: 0;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    font-size: 2vh;
+}
+
+.author_list {
+    position: absolute;
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    padding-top: 6%;
+    z-index: 0;
+    font-size: 2vh;
+}
+
+.date_list {
+    position: absolute;
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    padding-top: 9.5%;
+    z-index: 0;
+    font-size: 2vh;
+}
+
+.book_2 {
+    position: absolute;
+    top: 0;
+    left: 34%;
+    width: 25.5%;
+    bottom: 0%;
+    margin-right: 9%;
+    z-index: 1;
+}
+
+.book_3 {
+    position: absolute;
+    top: 0;
+    left: 70.7%;
+    width: 25.5%;
+    bottom: 0%;
+    margin-right: 9%;
+}

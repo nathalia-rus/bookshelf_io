@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="67px" viewBox="0 0 64 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-169.000000, -282.000000)" fill-rule="nonzero">
+            <g id="arrow-icon" transform="translate(185.000000, 315.500000) rotate(180.000000) translate(-185.000000, -315.500000) translate(137.000000, 282.000000)">
+                <path d="M32,33.1853691 L63.9681529,0 L63.9681529,16.5926845 L47.9840764,33.1853691 L63.9681529,49.7780536 L63.9681529,66.3707381 L32,33.1853691 Z M95.9363057,66.3707381 L95.9363057,49.7780536 L95.9363057,66.3707381 Z" id="Shape" fill="#898B45"></path>
+                <path d="M0,33.1853691 L31.9681529,0 L31.9681529,16.5926845 L15.9840764,33.1853691 L31.9681529,49.7780536 L31.9681529,66.3707381 L0,33.1853691 Z M63.9363057,66.3707381 L63.9363057,49.7780536 L63.9363057,66.3707381 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

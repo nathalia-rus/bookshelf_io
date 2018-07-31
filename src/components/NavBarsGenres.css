@@ -1,0 +1,110 @@
+/* NAV BAR RIGHT PAGES */
+
+.parent_Genres {
+    background-color: #16181A;
+    height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Jura');
+.menuicon_genres {
+    position: absolute;
+    top: 13%;
+    right: 2.3%;
+    transform: translate(-13%, -95%);
+    width: 2.3%;
+}
+
+.navRightUp_genres {
+    position: absolute;
+    top: 43%;
+    left: 95.8%;
+    transform: translate(-45%, -95.8%);
+    width: 0.12%;
+    height: 25%;
+}
+
+.diskicon_genres {
+    position: absolute;
+    top: 50%;
+    left: 95.8%;
+    transform: translate(-50%, -50%);
+    width: 2.5%;
+    opacity: 0.8;
+}
+
+.navRightDown_genres {
+    position: absolute;
+    top: 98.5%;
+    left: 95.8%;
+    transform: translate(-80%, -95.8%);
+    width: 0.12%;
+    height: 44%;
+    opacity: 0.7;
+}
+
+.arrow_icon_down_genres {
+    position: absolute;
+    ;
+    bottom: 16.5%;
+    right: 11.5%;
+    width: 1.3%;
+    transform: rotate(90deg);
+}
+
+.arrow_icon_up_genres {
+    position: absolute;
+    bottom: 22%;
+    right: 11.5%;
+    width: 1.3%;
+    transform: rotate(-90deg);
+}
+
+.ink {
+    position: absolute;
+    bottom: 9%;
+    right: 3.1%;
+    width: 2.3%;
+    opacity: 0.8;
+}
+
+
+/*  REST */
+
+.genre_text_image {
+    position: absolute;
+    width: 21%;
+    top: 58%;
+    left: 41%;
+    filter: brightness(0.9);
+}
+
+
+/*  AT THE  LEFT HAND AFTER NAME */
+
+.name_text_genres {
+    position: absolute;
+    top: 48%;
+    left: -1.8%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-family: 'Jura', sans-serif;
+    letter-spacing: 1px;
+    transform: rotate(-90deg);
+    font-size: 90%;
+}
+
+.line_nav_page {
+    position: absolute;
+    right: 95.8%;
+    width: 0.08%;
+    height: 100%;
+}
+
+.navRightDown_genres {
+    position: absolute;
+    top: 80%;
+    left: 95.8%;
+    transform: translate(-80%, -95.8%);
+    width: 0.12%;
+    height: 25%;
+}

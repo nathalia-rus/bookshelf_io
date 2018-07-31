@@ -1,0 +1,11 @@
+.historybackground {
+    filter: sepia(2) saturate(1.5) brightness(0.35);
+}
+
+.text_genre_history {
+    position: absolute;
+    width: 19%;
+    top: 58%;
+    left: 41%;
+    filter: brightness(0.7)
+}
